@@ -1,0 +1,190 @@
+:root{
+    --primary-color: #FED001; 
+}
+
+html{
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p,
+a{
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem; 
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+nav a {
+    color: inherit; /* INHERIT SIGNIFICA HERANÇA, NESSE CASO AS TAGS A QUE ESTÃO NA NAV HERDARÃO A COR DO ELEMENTO ACIMA */
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: inherit;
+}
+
+.wrapperConteiner {
+    padding-top: 1px;
+}
+
+.wrapperConteiner-dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperConteiner-light {
+    background-color: #fafafa;
+}
+
+.wrapperConteiner-dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.container {
+    max-width: 177.6rem;
+    margin: auto;
+}
+
+.section_title {
+    padding: 7rem;
+    text-align: center;
+    margin: 0;
+}
+
+.section_btn {
+    margin: 7rem 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav a {
+    padding: 0.75em 1.15em;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.header_nav ul {
+    display: flex;
+    gap: 0.6rem;
+    list-style-type: none;
+}
+
+.header_nav a:hover {
+    background-color: black;
+}
+
+.wrapperConteiner-hero {
+    background-image: linear-gradient(transparent, rgb(255, 255, 86));
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+    padding: 30px;
+}
+
+.hero_title {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+ 
+.cursos {
+    text-align: center;
+}
+
+.cursosConteiner {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card {
+    flex: 1; 
+}
+
+/* 
+FLEX É UM ATALHO QUE SIGNIFICA
+FLEX GROW: 1;     
+FLEX-SHRINK: 0;
+FLEX-BASIS: 0; 
+*/
+
+.curso_card img {
+    display: block;
+    width: 100%;
+}
+
+.curso_card h3 {
+    font-size: 2.4rem;
+}
+
+.curso_card p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.curso_card_content {
+    padding: 1rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.escola {
+    display: flex;
+    gap: 8rem;
+    padding-top: 6rem;
+}
+
+.escola_title {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.contatos_address {
+    text-align: right;
+    font: 400 1.8rem 'Inter', sans-serif;
+    padding: 3rem 0  ;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+}
+
+.footer a {
+    color: inherit;
+}
